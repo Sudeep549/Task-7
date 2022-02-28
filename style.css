@@ -1,0 +1,76 @@
+.container {
+  font-size: 35px;
+  text-align: center;
+  padding: auto;
+}
+
+.linear {
+  height: 40vh;
+  width: 40vh;
+  border: transparent;
+  background-image: linear-gradient(to left, red, yellow, rgb(85, 243, 79));
+}
+
+.radial {
+  height: 40vh;
+  width: 40vh;
+  border: transparent;
+  background-image: radial-gradient(red, yellow);
+  left: 34.5em;
+  position: relative;
+}
+
+.conic {
+  height: 40vh;
+  width: 40vh;
+  border: transparent;
+  background-image: conic-gradient(red, yellow);
+}
+
+.container1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.float-left {
+  height: 40vh;
+  width: 40vh;
+  border: 3px solid black;
+  float: left;
+}
+
+.float-right {
+  height: 40vh;
+  width: 40vh;
+  border: 3px solid black;
+  float: right;
+}
+
+.box {
+  height: 30vh;
+  width: 30vh;
+  border: 50px solid orange;
+  box-sizing: border-box;
+  position: relative;
+  top: 60vh;
+  padding: 20px;
+}
+
+.box1 {
+  height: 30vh;
+  width: 30vh;
+  border: 50px solid orange;
+  box-sizing: content-box;
+  position: relative;
+  top: 60vh;
+  left:150vh;
+  padding: 20px;
+}
+
+
+.container2{
+    font-size: 30px;
+    text-align: center;
+
+}
